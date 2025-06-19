@@ -52,6 +52,7 @@ export let expenses: Expense[] = [
     date: '2024-01-20',
     vendor: 'SteelCo Industries',
     approved: true,
+    status: 'incurred',
     createdAt: '2024-01-20T08:00:00Z',
     updatedAt: '2024-01-20T08:00:00Z'
   },
@@ -63,6 +64,7 @@ export let expenses: Expense[] = [
     amount: 12000,
     date: '2024-01-22',
     approved: true,
+    status: 'incurred',
     createdAt: '2024-01-22T17:00:00Z',
     updatedAt: '2024-01-22T17:00:00Z'
   },
@@ -75,6 +77,7 @@ export let expenses: Expense[] = [
     date: '2024-02-05',
     vendor: 'Heavy Equipment Rentals',
     approved: true,
+    status: 'incurred',
     createdAt: '2024-02-05T10:00:00Z',
     updatedAt: '2024-02-05T10:00:00Z'
   },
@@ -86,6 +89,7 @@ export let expenses: Expense[] = [
     amount: 15000,
     date: '2023-11-10',
     approved: true,
+    status: 'incurred',
     createdAt: '2023-11-10T14:00:00Z',
     updatedAt: '2023-11-10T14:00:00Z'
   }
